@@ -1,6 +1,7 @@
 ### How to use
 
 * For example
+
 You can determine the interval of uploading to MySQL server by argument vector
 ```
 $ a.out 1
