@@ -1,10 +1,43 @@
-I'm readme!
+### [YouTube Link](https://www.youtube.com/watch?v=rBl5ovB4Oh0)
+```
+https://www.youtube.com/watch?v=rBl5ovB4Oh0
+```
+
+### How to use
+
+* For example
+  
+```
+#You can determine the interval of uploading to MySQL server by argument vector
+$ a.out 1
+  ...
+$ a.out 10
+  ...
+```  
+
+```
+#Or you can use just default interval as 10 seconds.
+$ a.out
+```
+
+### Server
+* AWS-EC2
+* Apache
+* PHP
+* MySQL
+* Ajax
+
 
 ![MySQL](./image/MySQL.jpg)
-Mysql
+
+
+### Raspberry pi
+* Sending data to server in each interval.
 
 ![Running](./image/Running.jpg)
-Raspberry pi
+
+
+### Web view
+* Line chart in PHP
 
 ![web](./image/web.jpg)
-Web-server
