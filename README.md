@@ -19,21 +19,15 @@ Or you can use just default interval as 10 seconds.
 $ a.out
 ```
 
-### How to check
+h2. Server
 
-* For example
+* AWS-EC2
+* Apache
+* PHP
+* MySQL
+* Ajax
 
-You can determine the interval of uploading to MySQL server by argument vector
-```
-$ a.out 1
-  ...
-$ a.out 10
-  ...
-```
-Or you can use just default interval as 10 seconds.
-```
-$ a.out
-```
+
 
 * At Mysql in AWD EC2
 ![MySQL](./image/MySQL.jpg)
