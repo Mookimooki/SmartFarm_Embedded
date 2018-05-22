@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="e07537c7-20ec-46c7-bfe1-d3becf0d8b04" name="Embedded_term_proj" url="http://ec2-52-79-81-142.ap-northeast-2.compute.amazonaws.com/page-login.php">
+        <fileTransfer host="ec2-52-79-81-142.ap-northeast-2.compute.amazonaws.com" port="22" privateKey="C:\Users\Oak\Desktop\mook.pem" rootFolder="/var/www/html" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
