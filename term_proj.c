@@ -363,18 +363,15 @@ void *upload_DB(void *arg){
 }
 
 void *TurnningFAN(void *arg) {
-	while (1) {
-		pthread_mutex_lock(&fan_mutex);
+	pthread_mutex_lock(&fan_mutex);
+	while (1) {		
 		pthread_cond_wait(&fan_cond, &fan_mutex);
-
 		digitalWrite(FAN, 1);
 		sleep(5);
 		digitalWrite(FAN, 0);
-		sleep(5);
-
-		pthread_mutex_unlock(&fan_mutex);
+		sleep(5);		
 	}
-
+	pthread_mutex_unlock(&fan_mutex);
 	return NULL;
 }
 
