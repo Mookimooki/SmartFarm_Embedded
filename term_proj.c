@@ -327,18 +327,21 @@ void *upload_DB(void *arg){
 			while (queue_size_temp == 0)
 				pthread_cond_wait(&temp_cond, &temp_mutex);
 			temp = pop_temp();
+			pthread_cond_signal(&temp_cond);
 			pthread_mutex_unlock(&temp_mutex);
 
 			pthread_mutex_lock(&light_mutex);
 			while (queue_size_light == 0)
 				pthread_cond_wait(&light_cond, &light_mutex);
 			light = pop_light();
+			pthread_cond_signal(&light_mutex);
 			pthread_mutex_unlock(&light_mutex);
 
 			pthread_mutex_lock(&time_mutex);
 			while (queue_size_light == 0)
 				pthread_cond_wait(&time_cond, &time_mutex);
 			pop_time(time);
+			pthread_cond_signal(&time_mutex);
 			pthread_mutex_unlock(&time_mutex);
 
 			sprintf(query, "INSERT INTO iot VALUES (\"%s\",%02d,%04d)", time, temp, light);
