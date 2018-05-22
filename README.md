@@ -20,8 +20,7 @@ $ a.out 10
 $ a.out
 ```
 
-h2. Server
-
+### Server
 * AWS-EC2
 * Apache
 * PHP
