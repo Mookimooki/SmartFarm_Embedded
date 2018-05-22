@@ -28,12 +28,16 @@ $ a.out
 * Ajax
 
 
-
-* At Mysql in AWD EC2
 ![MySQL](./image/MySQL.jpg)
 
-* Running in Raspberry pi
+
+### Raspberry pi
+* Sending data to server in each interval.
+
 ![Running](./image/Running.jpg)
 
-* Running Web-server
+
+### Web view
+* Line chart in PHP
+
 ![web](./image/web.jpg)
