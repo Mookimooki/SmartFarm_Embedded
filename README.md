@@ -1,14 +1,16 @@
 ### How to use
 
-You can determine the interval of uploading to MySQL server by argument vector
-
 * For example
-
+You can determine the interval of uploading to MySQL server by argument vector
 ```
 $ a.out 1
   ...
 $ a.out 10
   ...
+```
+Or you can use just default interval as 10 seconds.
+```
+$ a.out
 ```
 
 ![MySQL](./image/MySQL.jpg)
