@@ -1,3 +1,8 @@
+### Youtube Link
+```
+https://www.youtube.com/watch?v=m2MxSjajOAo
+```
+
 ### How to use
 
 * For example
@@ -14,14 +19,27 @@ Or you can use just default interval as 10 seconds.
 $ a.out
 ```
 
+### How to check
+
+* For example
+
+You can determine the interval of uploading to MySQL server by argument vector
 ```
+$ a.out 1
+  ...
+$ a.out 10
+  ...
+```
+Or you can use just default interval as 10 seconds.
+```
+$ a.out
+```
+
+* At Mysql in AWD EC2
 ![MySQL](./image/MySQL.jpg)
-```
 
-
-
+* Running in Raspberry pi
 ![Running](./image/Running.jpg)
-Raspberry pi
 
+* Running Web-server
 ![web](./image/web.jpg)
-Web-server
