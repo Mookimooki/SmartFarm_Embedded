@@ -1,6 +1,6 @@
-### [YouTube Link](https://www.youtube.com/watch?v=m2MxSjajOAo)
+### [YouTube Link](https://youtu.be/rBl5ovB4Oh0)
 ```
-https://www.youtube.com/watch?v=m2MxSjajOAo
+https://youtu.be/rBl5ovB4Oh0
 ```
 
 ### How to use
